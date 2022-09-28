@@ -1,5 +1,6 @@
 from scipy.signal import convolve2d as conv2
-from skimage import color
+from skimage import color, data
+import matplotlib.pyplot as plt
 import numpy as np
 import torch 
 import torch.nn.functional as F
@@ -42,7 +43,7 @@ def main():
 
     deconvolved = torch_rl(astro, psf)
 
-    plt.imshow(deconvolved.detach().numpy()[:,:], cmap='gray')
+    plt.imshow(deconvolved.detach().numpy()[0,0], cmap='gray')
   
 if __name__=="__main__":
     main()
