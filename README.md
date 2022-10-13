@@ -5,9 +5,11 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 
 ## Overview
 
-☑️ Richardson-Lucy [1,2]</br>
+☑️ Richardson-Lucy iteration [1,2]</br>
 ☑️ Landweber iteration [3]</br>
 ❌ Wiener filter [4]</br>
+❌ Split Bergman method [5]</br>
+❌ ADMM [6]</br>
 
 ## References
 
@@ -18,3 +20,7 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 [3] Landweber, L., "An iteration formula for Fredholm integral equations of the first kind", Amer. J. Math. 73, 615–624 (1951).
 
 [4] Wiener, Norbert, et al., "Extrapolation, interpolation, and smoothing of stationary time series: with engineering applications", Vol. 113. No. 21. Cambridge, MA: MIT press, (1949).
+
+[5] Goldstein, Tom, and Stanley Osher. "The split Bregman method for L1-regularized problems." SIAM journal on imaging sciences 2.2 (2009): 323-343.
+
+[6] Afonso, Manya V., José M. Bioucas-Dias, and Mário AT Figueiredo. "An augmented Lagrangian approach to the constrained optimization formulation of imaging inverse problems." IEEE transactions on image processing 20.3 (2010): 681-695.
