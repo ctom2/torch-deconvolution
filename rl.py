@@ -1,6 +1,13 @@
 import torch
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 def torch_richardson_lucy(image, psf, num_iter=50):
+    """
+    image: 4-dimensional input, NCHW format
+    psf:   4-dimensional input, NCHW format
+    """
+    
     pad = psf.shape[-1]//2 + 1
     image = torch.nn.functional.pad(image, (pad,pad,pad,pad), mode='reflect')
 
