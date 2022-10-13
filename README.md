@@ -1,5 +1,5 @@
 # Deconvolution algorithms
-Implementation of of image deconvolution algorithms using `torch`.
+Implementation of image deconvolution algorithms using `torch`.
 
 ## Overview
 
