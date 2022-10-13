@@ -1,4 +1,4 @@
-# Deconvolution algorithms
+# Image deconvolution algorithms
 Implementation of image deconvolution algorithms using `torch`.
 
 Values of an input image need to be in range [0,1] and the summation of PSF elements has to equal to 1.
