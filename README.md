@@ -4,7 +4,7 @@ Implementation of of image deconvolution algorithms using `torch`.
 ## Overview
 
 ☑️ Richardson-Lucy [1,2]</br>
-❌ Landweber iteration [3]</br>
+☑️ Landweber iteration [3]</br>
 ❌ Wiener filter [4]</br>
 
 ## References
