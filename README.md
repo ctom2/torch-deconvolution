@@ -15,4 +15,4 @@ Implementation of of image deconvolution algorithms using `torch`.
 
 [3] Landweber, L., "An iteration formula for Fredholm integral equations of the first kind", Amer. J. Math. 73, 615–624 (1951).
 
-[4] Wiener, Norbert, et al., "Extrapolation, interpolation, and smoothing of stationary time series: with engineering applications", Vol. 113. No. 21. Cambridge, MA: MIT press, 1949.
+[4] Wiener, Norbert, et al., "Extrapolation, interpolation, and smoothing of stationary time series: with engineering applications", Vol. 113. No. 21. Cambridge, MA: MIT press, (1949).
