@@ -6,6 +6,7 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 ## Overview
 
 ☑️ Richardson-Lucy iteration [1,2]</br>
+☑️ Richardson-Lucy iteration with Total Variation (TV) [7]</br>
 ☑️ Landweber iteration [3]</br>
 ❌ Wiener filter [4]</br>
 ❌ Split Bergman method [5]</br>
@@ -24,3 +25,5 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 [5] Goldstein, Tom, and Stanley Osher. "The split Bregman method for L1-regularized problems." SIAM journal on imaging sciences 2.2 (2009): 323-343.
 
 [6] Afonso, Manya V., José M. Bioucas-Dias, and Mário AT Figueiredo. "An augmented Lagrangian approach to the constrained optimization formulation of imaging inverse problems." IEEE transactions on image processing 20.3 (2010): 681-695.
+
+[7] Dey, Nicolas, et al. "Richardson–Lucy algorithm with total variation regularization for 3D confocal microscope deconvolution." Microscopy research and technique 69.4 (2006): 260-266.
