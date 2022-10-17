@@ -13,7 +13,7 @@ def torch_richardson_lucy_tv(image, psf, num_iter=50, lam=2e-2):
     image = torch.nn.functional.pad(image, (pad,pad,pad,pad), mode='reflect')
 
     im_deconv = torch.full(image.shape, 0.5).to(device)
-    psf_mirror = torch.transpose(psf, -2, -1)
+    psf_mirror = torch.flip(psf, (-2,-1))
 
     eps = 1e-12
     reg = 0
