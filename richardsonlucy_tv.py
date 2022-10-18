@@ -22,7 +22,6 @@ def torch_richardson_lucy_tv(image, psf, num_iter=10, lam=2e-2):
             div_torch = torch.gradient(grad_torch[0], axis=0)[0] + torch.gradient(grad_torch[1], axis=1)[0]
             reg = 1/(1-div_torch*lam)
 
-
         conv = torch.conv2d(im_deconv, psf, stride=1, padding='same') + eps
         relative_blur = image / conv
         im_deconv *= (torch.conv2d(relative_blur, psf_mirror, stride=1, padding='same') + eps) * reg
