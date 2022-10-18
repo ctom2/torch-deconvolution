@@ -12,6 +12,11 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 ❌ Split Bergman method [5]</br>
 ❌ ADMM [6]</br>
 
+## Future updates
+
+⚠️ Remove `device` variable
+⚠️ Remove additional padding
+
 ## References
 
 [1] William Hadley Richardson, "Bayesian-Based Iterative Method of Image Restoration*," J. Opt. Soc. Am. 62, 55-59 (1972).
