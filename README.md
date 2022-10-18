@@ -14,7 +14,7 @@ Values of an input image need to be in range [0,1] and the summation of PSF elem
 
 ## Future updates
 
-⚠️ Remove `device` variable
+⚠️ Remove `device` variable</br>
 ⚠️ Remove additional padding
 
 ## References
