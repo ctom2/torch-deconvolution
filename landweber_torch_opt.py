@@ -1,6 +1,6 @@
 import torch
 
-def landweber_torch_opt(y, num_iter=50, lam=0.7):
+def landweber_torch_opt(y, k, num_iter=50, lam=0.7):
     xi = torch.nn.Parameter(torch.ones(y.shape)*0.5).float()
 
     optimizer = torch.optim.SGD([xi], lr=lam)
