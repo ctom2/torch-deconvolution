@@ -14,4 +14,4 @@ def landweber_torch_opt(y, k, num_iter=50, lam=0.7):
         loss.backward()
         optimizer.step()
 
-    return y_out
+    return xi.detach()
